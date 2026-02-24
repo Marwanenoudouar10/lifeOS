@@ -1,0 +1,30 @@
+{
+  "name": "lifeos",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "dev:api": "pnpm --filter @lifeos/api dev",
+    "dev:web": "pnpm --filter @lifeos/web dev",
+    "build": "pnpm -r build",
+    "db:migrate": "pnpm --filter @lifeos/api db:migrate",
+    "db:seed": "pnpm --filter @lifeos/api db:seed",
+    "db:studio": "pnpm --filter @lifeos/api db:studio",
+    "db:generate": "pnpm --filter @lifeos/api db:generate"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@prisma/client",
+      "@prisma/engines",
+      "prisma",
+      "esbuild"
+    ]
+  },
+  "devDependencies": {
+    "prisma": "^6.19.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.2"
+  }
+}
