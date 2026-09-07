@@ -1,6 +1,6 @@
 # lifeOS
 
-A comprehensive personal life & task management system. Not just a to-do list — a smart life assistant supporting task capture, priority intelligence, daily planning, focus mode, habit tracking, goal management, reviews, and analytics.
+A comprehensive personal life & task management system. Not just a to-do list, a smart life assistant supporting task capture, priority intelligence, daily planning, focus mode, habit tracking, goal management, reviews, and analytics.
 
 ## Tech Stack
 
